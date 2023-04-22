@@ -44,6 +44,6 @@ public class Triangulo
         public double Area()
         {
             double sp = Perimetro() / 2.0;
-            return (double) Math.Sqrt(sp * (sp - a) * (sp - b) * (sp - c));
+            return (double) Math.sqrt(sp * (sp - a) * (sp - b) * (sp - c));
         }
     }
