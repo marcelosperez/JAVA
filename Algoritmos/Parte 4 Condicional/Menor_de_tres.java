@@ -30,8 +30,9 @@ public class Menor_de_tres {
 	        menor = c;
 	    }
 		
-	    System.out.printf("MENOR = %d\n", menor);
+	    System.out.printf("MENOR = %d\n", menor); 
 
+		
 		sc.close();
 	}
 }
