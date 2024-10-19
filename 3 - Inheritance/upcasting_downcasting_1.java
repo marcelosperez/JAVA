@@ -16,7 +16,6 @@
 
  */
 
-// Java program to demonstrate
 
 class Parent {
 	String name = "Homer";
