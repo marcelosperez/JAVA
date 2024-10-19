@@ -11,6 +11,7 @@ Reparando que a diagonal é dada por Aij quando i=J
 A11 A22 A33
 Podemos considerar que quando j>i os números estarão acima da diagonal
 A12 A13 A23
+E que quando i<j os números estarão abaixo da diagonal
 */
 
 public class acima_diagonal {
