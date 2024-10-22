@@ -1,12 +1,12 @@
-public class Product implements Comparable<Product> {
+public class ProductTwo {
 
     private String name;
     private double price;
    
-    public Product() {
+    public ProductTwo() {
     }
 
-    public Product(String name, double price) {
+    public ProductTwo(String name, double price) {
         this.name = name;
         this.price = price;
     }
@@ -32,9 +32,6 @@ public class Product implements Comparable<Product> {
         return "Product [name=" + name + ", price=" + price + "]";
     }
 
-    @Override
-    public int compareTo(Product p) {
-        return name.toUpperCase().compareTo(p.getName().toUpperCase());
-    }   
+   
     
 }
