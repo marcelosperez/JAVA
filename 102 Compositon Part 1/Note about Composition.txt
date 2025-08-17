@@ -1,0 +1,9 @@
+Note about Composition:
+
+-- Composition appears in Personal Computer.
+-- When your attributes are in fact classes.
+-- Personal Computer has 3 classes attributes:
+-- 1) computerCase
+-- 2) monitor
+-- 3) motherboard
+-- Inheritance has limitations. It allows you to inherit from only one class at a time.
