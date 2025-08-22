@@ -6,7 +6,7 @@ public class Main {
             Student s = new Student("S92300" + i,
                     switch (i) {
                         case 1 -> "Mary";
-                        case 2 -> "Carol";
+                        case 2 -> "John";
                         case 3 -> "Tim";
                         case 4 -> "Harry";
                         case 5 -> "Lisa";
