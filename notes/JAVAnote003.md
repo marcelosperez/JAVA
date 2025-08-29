@@ -1,5 +1,5 @@
 
-# Ler texto sem espaços
+# Read text without spaces
 The code sc.next() is used to read the next word (token) from the user input in Java. 
 ```JAVA
 sc.next()
