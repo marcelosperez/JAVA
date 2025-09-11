@@ -1,3 +1,10 @@
+/*
+ * This is part of the Exercism Java track
+ * that I'm using to practice Java
+ * 
+ */
+
+
 public class AnnalynsInfiltration {
     public static boolean canFastAttack(boolean knightIsAwake) {         
         return !knightIsAwake;
