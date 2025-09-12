@@ -18,13 +18,9 @@ public class AnnalynsInfiltration {
         return prisonerIsAwake && !archerIsAwake;
     }
 
-    public static boolean canFreePrisoner(boolean knightIsAwake, boolean archerIsAwake, boolean prisonerIsAwake, boolean dogIsPresent) {
-        if (dogIsPresent) {
-            return !archerIsAwake;
-        } else {
-            return prisonerIsAwake && !knightIsAwake && !archerIsAwake;
-        }
-    }
+ public static boolean canFreePrisoner(boolean knightIsAwake, boolean archerIsAwake, boolean prisonerIsAwake, boolean dogIsPresent) {
+    return (dogIsPresent && !archerIsAwake) || (!dogIsPresent && prisonerIsAwake && !knightIsAwake && !archerIsAwake);
+}
 
     public static void main(String[] args) {
         boolean knightIsAwake = true;
