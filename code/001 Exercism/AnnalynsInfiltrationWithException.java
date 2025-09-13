@@ -5,7 +5,7 @@
  * 
  */
 
-public class AnnalynsInfiltration {
+public class AnnalynsInfiltrationWithException {
     public static boolean canFastAttack(boolean knightIsAwake) {         
         return !knightIsAwake;
     }
